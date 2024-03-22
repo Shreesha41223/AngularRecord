@@ -1,0 +1,6 @@
+<h2>Passing Value Between Parent & Child Component </h2>
+<h3>Value sent from parent to child </h3>
+<app-child-reciever [valueFromParent]="parentValue"></app-child-reciever>
+<app-child-sender (Event)="valueFromChild = $event"></app-child-sender>
+<p>Name from Child : {{valueFromChild.name}}</p>
+<p>Age from Child : {{valueFromChild.age}}</p>

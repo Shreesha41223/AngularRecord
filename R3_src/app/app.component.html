@@ -1,0 +1,4 @@
+<p>Enter the Font Size</p>
+<input type="number" #Size>
+<button (click)="changeFontSize(Size.value)">Change Font Size</button>
+<app-child [fSize]="NUMBER"></app-child>

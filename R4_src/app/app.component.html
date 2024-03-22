@@ -1,0 +1,4 @@
+<p>Enter a String : </p>
+<input type="text" #stringValue>
+<button (click)="getString(stringValue.value)">Get First 2 Characters</button>
+<h3 style="color: green;">First 2 Characters of the String are -- {{STRING|first2Char}}</h3>
