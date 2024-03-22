@@ -1,0 +1,17 @@
+.container {
+    margin: 20px;
+  }
+  
+  .user-info {
+    margin-top: 20px;
+  }
+  
+  .user-info img {
+    border-radius: 50%; /* Makes the image round */
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+  }
+  
+  .user-info p {
+    margin: 10px ;
+  }

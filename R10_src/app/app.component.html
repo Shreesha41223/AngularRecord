@@ -1,0 +1,6 @@
+<h3>Array Data in the Node.js Server </h3>
+<p>{{ data|json}}</p>
+<h3>Enter data to push new object</h3>
+<label>Name : </label><input type="text" [(ngModel)]="addData.name" placeholder="Enter name">
+<label>Age : </label><input type="text" [(ngModel)]="addData.age" placeholder="Enter age">
+<button type="submit" (click)="addDataToServer()">Add Data</button>

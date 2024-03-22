@@ -1,0 +1,20 @@
+/* styles.css */
+
+/* Container styles */
+.container {
+    margin: 20px;
+  }
+  
+  /* Label and input styles */
+  label,
+  input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    display: block;
+    margin-top: 10px;
+  }
+  
